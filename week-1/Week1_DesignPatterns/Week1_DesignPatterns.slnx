@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Exercise1_SingletonPattern/Exercise1_SingletonPattern.csproj" />
+  <Project Path="Exercise2_FactoryPattern/Exercise2_FactoryPattern.csproj" />
+  <Project Path="Exercise3_EcommerceSearch/Exercise3_EcommerceSearch.csproj" />
+  <Project Path="Exercise4_FinancialForecasting/Exercise4_FinancialForecasting.csproj" />
+</Solution>

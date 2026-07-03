@@ -1,0 +1,5 @@
+# Git ignore for Visual Studio 
+.vs/ 
+bin/ 
+obj/ 
+*.user 
