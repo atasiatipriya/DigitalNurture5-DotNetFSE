@@ -1,0 +1,111 @@
+.stat-card {
+
+  background: linear-gradient(145deg, #16233C, #101A2D);
+
+  border: 1px solid rgba(255, 255, 255, .06);
+
+  border-radius: 24px;
+
+  padding: 24px;
+
+  display: flex;
+
+  gap: 20px;
+
+  align-items: center;
+
+  cursor: pointer;
+
+  transition: .35s;
+
+  position: relative;
+
+  overflow: hidden;
+
+}
+
+.stat-card::before {
+
+  content: "";
+
+  position: absolute;
+
+  left: -120px;
+
+  top: 0;
+
+  width: 120px;
+
+  height: 100%;
+
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, .08), transparent);
+
+  transition: .7s;
+
+}
+
+.stat-card:hover::before {
+
+  left: 120%;
+
+}
+
+.stat-card:hover {
+
+  transform: translateY(-10px);
+
+  box-shadow: 0 20px 45px rgba(79, 140, 255, .25);
+
+  border-color: #4F8CFF;
+
+}
+
+.icon {
+
+  width: 72px;
+
+  height: 72px;
+
+  border-radius: 20px;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  font-size: 30px;
+
+  color: white;
+
+}
+
+.content h4 {
+
+  color: var(--muted);
+
+  font-size: 15px;
+
+  margin-bottom: 8px;
+
+  font-weight: 600;
+
+}
+
+.content h2 {
+
+  font-size: 44px;
+
+  margin-bottom: 6px;
+
+  font-weight: 800;
+
+}
+
+.content span {
+
+  color: var(--success);
+
+  font-weight: 700;
+
+}

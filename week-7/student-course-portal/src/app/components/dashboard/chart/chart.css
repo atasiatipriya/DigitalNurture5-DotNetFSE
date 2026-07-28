@@ -1,0 +1,49 @@
+.chart-card {
+
+  background: linear-gradient(145deg, #16233C, #101A2D);
+
+  border-radius: 28px;
+
+  padding: 28px;
+
+  box-shadow: var(--shadow);
+
+  border: 1px solid rgba(255, 255, 255, .06);
+
+  height: 100%;
+
+}
+
+.header {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  margin-bottom: 25px;
+
+}
+
+.header h2 {
+
+  font-size: 24px;
+
+  font-weight: 700;
+
+}
+
+.header span {
+
+  color: var(--muted);
+
+  font-weight: 600;
+
+}
+
+canvas {
+
+  height: 340px !important;
+
+}
